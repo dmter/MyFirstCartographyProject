@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demet AKBABA</title>
+    <link rel="stylesheet" href="css/da_style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+</head>
+
+<body style="display: flex;">
+    <div id="map"></div>
+    <div class="group_div">
+        <div class="box">
+            <h1> My Places</h1>
+            <p id="date"></p>
+        </div>
+        <div class="box">
+            <h3> Select Location </h3>
+            <h4> Please select location </h4>
+            <div>
+                <input type="radio" name="webcartography" id="radio" onclick="findLocation(1)" checked>
+                <label for="button1">IKCU</label>
+            </div>
+            <div>
+                <input type="radio" name="webcartography" id="radio" onclick="findLocation(2)">
+                <label for="button2">My Hometown</label>
+            </div>
+            <div>
+                <input type="radio" name="webcartography" id="radio" onclick="findLocation(3)">
+                <label for="button3">My Place</label>
+            </div>
+
+
+
+        </div>
+        <div class="box flex">
+            <button onclick="resetMap()"> Reset Map</button>
+        </div>
+        <div class="box flex">
+            <h2> Demet AKBABA - 160406052</h2>
+<script>  
+/* The following program contains the source code of a map created with the Google API key. With this code, html, js and css files are linked and transitions between locations are provided.
+ */  
+document.write("The following program contains the source code of a map created with the Google API key. With this code, html, js and css files are linked and transitions between locations are provided.");  
+</script>
+        </div>
+    </div>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly&channel=2" async></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFLzx-8SYi6OBQHMA4KF14ChY_gD0NIn0&callback=initMap"></script>
+
+    <script src="js/index_da_.js"></script>
+
+</body>
+
+</html>
